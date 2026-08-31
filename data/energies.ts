@@ -1,0 +1,1 @@
+export const DEFAULT_ENERGIES=[{name:"RECEIVE",geometry:"inward-spiral"},{name:"CREATE",geometry:"outward-spiral"},{name:"CONNECT",geometry:"constellation"},{name:"SERVE",geometry:"bridge"},{name:"EXPLORE",geometry:"orbit"},{name:"REST",geometry:"still-circle"},{name:"CELEBRATE",geometry:"radiant-ring"},{name:"RELEASE",geometry:"dissolving-ring"}] as const;

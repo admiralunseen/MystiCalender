@@ -1,0 +1,1 @@
+export function ArchetypeOnboarding(){return <section><h2>Who are you becoming?</h2><input placeholder="Your name"/><input placeholder="Your archetype"/><textarea placeholder="Describe your archetype in your own words..."/><button>✦ Generate example calendar</button><p>AI proposes an example. The user remains the author and can modify everything.</p></section>}

@@ -1,0 +1,4 @@
+export type Energy = "RECEIVE"|"CREATE"|"CONNECT"|"SERVE"|"EXPLORE"|"REST"|"CELEBRATE"|"RELEASE";
+export type Quarter = "Q1"|"Q2"|"Q3"|"Q4";
+export interface Resource { id:string; title:string; type:"link"|"image"|"document"|"audio"|"video"|"map"|"note"|"playlist"|"ritual"|"recipe"; url?:string; }
+export interface CalendarEvent { id:string; calendarId:string; title:string; description?:string; start:string; end:string; timezone:string; location?:{name?:string;address?:string;latitude?:number;longitude?:number}; people?:string[]; experience?:{intention?:string;energy?:Energy[];activation?:string}; timeContext:{lunarPhase:{name:string;illumination:number;phaseAngle:number};quarter:Quarter}; resources?:Resource[]; visual?:{geometry:string;intensity?:number}; ai?:{generated:boolean;generatedFields:string[]}; }

@@ -1,0 +1,1 @@
+import type { CalendarEvent } from "./event"; export interface Archetype { id:string; name:string; description:string; qualities:string[]; } export interface MystiCalendar { id:string; name:string; ownerName:string; archetype:Archetype; events:CalendarEvent[]; }
