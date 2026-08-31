@@ -1,0 +1,1 @@
+export default function Home(){return <main style={{padding:40}}><h1>MystiCalendar</h1><p>The interactive static prototype is available from the repository root <code>index.html</code>. Typed production components live in components/, types/, data/, and lib/.</p></main>}
